@@ -78,40 +78,36 @@ Web app interface to input news & get predictions in real-time.
 
 💻 How to Run the Project
 
-Clone this repo:
+## 🚀 How to Run
 
+Clone this repo:
+```bash
 git clone https://github.com/yourusername/Fake-News-Detector.git
 cd Fake-News-Detector
-
-
 Install dependencies:
 
+bash
+Copy
+Edit
 pip install -r requirements.txt
-
-
 Run Jupyter notebook for training:
 
+bash
+Copy
+Edit
 jupyter notebook notebooks/fake_news_detection.ipynb
-
-
 Launch the app (Flask / Streamlit):
 
+bash
+Copy
+Edit
 python app.py
-
 🏆 Results
-
 Logistic Regression → ~92% accuracy
 
 Naive Bayes → ~90% accuracy
 
 XGBoost → ~95% accuracy (best model)
-
-👥 Contributors
-
-Tasneem Kousar
-
-
-
 📜 License
 
 This project is licensed under the MIT License.
