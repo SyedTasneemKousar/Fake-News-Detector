@@ -63,20 +63,45 @@ This project uses datasets such as **Kaggle’s Fake News Dataset** (containing 
 
 ---
 
-## 💻 How to Run the Project
+💻 How to Run the Project
 
-Clone this repo:
+Navigate to the project folder
 ```bash
-git clone https://github.com/yourusername/Fake-News-Detector.git
-cd Fake-News-Detector
-Install dependencies:
-pip install -r requirements.txt
-Run Jupyter notebook for training:
-jupyter notebook notebooks/fake_news_detection.ipynb
-Launch the app (Flask / Streamlit):
-python app.py
-🏆 Results
 
+cd Fake-News-Detector
+```
+
+
+Create a virtual environment (optional but recommended)
+
+```bash
+python -m venv venv
+source venv/bin/activate   # For Linux/Mac
+venv\Scripts\activate      # For Windows
+```
+
+Install required dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+Train the models using Jupyter Notebook
+```bash
+
+jupyter notebook notebooks/fake_news_detection.ipynb
+
+```
+Run the Web Application
+For Streamlit:
+```bash
+streamlit run app.py
+```
+
+For Flask:
+```bash
+python app.py
+```
 Logistic Regression → ~92% accuracy
 
 Naive Bayes → ~90% accuracy
